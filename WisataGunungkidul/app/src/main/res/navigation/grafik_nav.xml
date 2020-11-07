@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grafik_nav"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.tugastengahsemester.ihwanfauzan.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/activity_main">
+        <action
+            android:id="@+id/action_mainActivity_to_profil2"
+            app:destination="@id/profil2" />
+        <action
+            android:id="@+id/action_mainActivity_to_drini"
+            app:destination="@id/drini" >
+            <action
+                android:id="@+id/action_action_mainActivity_to_drini_to_jogan"
+                app:destination="@id/jogan" />
+        </action>
+        <action
+            android:id="@+id/action_mainActivity_to_jogan"
+            app:destination="@id/jogan" />
+        <action
+            android:id="@+id/action_mainActivity_to_drini2"
+            app:destination="@id/drini" />
+        <action
+            android:id="@+id/action_mainActivity_to_nglanggeran"
+            app:destination="@id/nglanggeran" />
+        <action
+            android:id="@+id/action_mainActivity_to_pindul"
+            app:destination="@id/pindul" />
+        <action
+            android:id="@+id/action_mainActivity_to_heha"
+            app:destination="@id/heha" />
+    </activity>
+    <activity
+        android:id="@+id/profil2"
+        android:name="com.tugastengahsemester.ihwanfauzan.Profil"
+        android:label="Profil"
+        tools:layout="@layout/activity_profil">
+        <action
+            android:id="@+id/action_profil2_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </activity>
+    <activity
+        android:id="@+id/nglanggeran"
+        android:name="com.tugastengahsemester.ihwanfauzan.Nglanggeran"
+        android:label="Nglanggeran"
+        tools:layout="@layout/fragment_nglanggeran">
+        <action
+            android:id="@+id/action_nglanggeran_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </activity>
+    <activity
+        android:id="@+id/pindul"
+        android:name="com.tugastengahsemester.ihwanfauzan.Pindul"
+        android:label="Pindul"
+        tools:layout="@layout/fragment_pindul">
+        <action
+            android:id="@+id/action_pindul_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </activity>
+    <activity
+        android:id="@+id/drini"
+        android:name="com.tugastengahsemester.ihwanfauzan.Drini"
+        android:label="Drini"
+        tools:layout="@layout/fragment_drini">
+        <action
+            android:id="@+id/action_drini_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </activity>
+    <activity
+        android:id="@+id/jogan"
+        android:name="com.tugastengahsemester.ihwanfauzan.Jogan"
+        android:label="Jogan"
+        tools:layout="@layout/fragment_jogan">
+        <action
+            android:id="@+id/action_jogan_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </activity>
+    <activity
+        android:id="@+id/heha"
+        android:name="com.tugastengahsemester.ihwanfauzan.Heha"
+        android:label="Heha"
+        tools:layout="@layout/fragment_heha"/>
+</navigation>

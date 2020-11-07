@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        tools:context=".PingulFragment">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pindul1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gua Pindul adalah objek wisata berupa gua yang terletak di Desa Bejiharjo, Kecamatan Karangmojo, Kabupaten Gunungkidul. Gua Pindul dikenal karena cara menyusuri gua yang dilakukan dengan menaiki ban pelampung di atas aliran sungai bawah tanah di dalam gua, kegiatan ini dikenal dengan istilah cave tubing. Aliran sungai bawah tanah dimulai dari mulut gua sampai bagian akhir gua, di dalam gua terdapat bagian sempit yang hanya bisa dilewati satu ban pelampung, sehingga biasanya wisatawan akan bergantian satu per satu untuk melewati bagian ini. Panjang gua Pindul adalah 350 meter dengan lebar 5 meter dan jarak permukaan air dengan atap gua 4 meter. Penelusuran gua Pindul memakan waktu kurang lebih selama satu jam yang berakhir pada sebuah dam. Aliran sungai yang berada di dalam Gua Pindul berasal dari mata air Gedong Tujuh. Obyek wisata Gua Pindul diresmikan pada 10 Oktober 2010."
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/pindul2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Desa Bejiharjo terletak di kawasan pebukitan karst sehingga didominasi oleh batuan. Gua Pindul dapat dicapai dari kota Yogyakarta menggunakan kendaraan pribadi seperti sepeda motor atau mobil melewati jalan Wonosari, letaknya sekitar 7 km ke arah utara kota Wonosari, setelah memasuki Desa Bejiharjo, perjalanan dilanjutkan mengikuti jalan aspal. Lokasi sekretariat Gua Pindul berada di ujung jalan. Penulusuran di dalam gua akan terdapat formasi bebatuan stalaktit, yaitu yaitu sejenis mineral sekunder yang menggantung di langit-langit gua kapur. Bahkan ada stalaktit yang sudah tumbuh sampai bawah dan menjadi seperti pilar.[5] Beberapa batuan karst masih hidup dan meneteskan air. Gua Pindul terbagi menjadi tiga zona, yaitu zona terang, remang dan gelap.[6] Salah satu bagian Gua Pindul terdapat tempat yang cukup lebar sehingga terlihat seperti kolam dan terdapat celah yang cukup lebar tempat sinar matahari masuk.[4] Celah ini juga dapat dilalui sebagai jalur masuk dengan cara memasuki gua secara vertikal. Tempat wisata sekitar Gua Pindul terdapat Gua Gelatik (gua kering), monumen peninggalan Jenderal Soedirman, serta situs purbakala Sokoliman."
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/pindul3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gua Pindul adalah objek wisata berupa gua yang terletak di Desa Bejiharjo, Kecamatan Karangmojo, Kabupaten Gunungkidul. Gua Pindul dikenal karena cara menyusuri gua yang dilakukan dengan menaiki ban pelampung di atas aliran sungai bawah tanah di dalam gua, kegiatan ini dikenal dengan istilah cave tubing. Aliran sungai bawah tanah dimulai dari mulut gua sampai bagian akhir gua, di dalam gua terdapat bagian sempit yang hanya bisa dilewati satu ban pelampung, sehingga biasanya wisatawan akan bergantian satu per satu untuk melewati bagian ini. Panjang gua Pindul adalah 350 meter dengan lebar 5 meter dan jarak permukaan air dengan atap gua 4 meter.[3][4] Penelusuran gua Pindul memakan waktu kurang lebih selama satu jam yang berakhir pada sebuah dam. Aliran sungai yang berada di dalam Gua Pindul berasal dari mata air Gedong Tujuh. Obyek wisata Gua Pindul diresmikan pada 10 Oktober 2010."
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
